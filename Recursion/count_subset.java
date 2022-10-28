@@ -1,7 +1,7 @@
 package Recursion;
 import java.util.*;
 public class count_subset {
-public static void print(int n,char[] str,char[] array)
+public static void print(int n,char[] str1,char[] array)
 {
 	if(n<=0)//(means array is full)
 	{
@@ -10,9 +10,9 @@ public static void print(int n,char[] str,char[] array)
 	}
 	else
 	{
-		for (int i = 0; i < str.length; i++) {
-			array[n - 1] = str[i];
-			print(n - 1, str, array);
+		for (int i = 0; i < str1.length; i++) {
+			array[n - 1] = str1[i];
+			print(n - 1, str1, array);
 		}
 	}
 }
