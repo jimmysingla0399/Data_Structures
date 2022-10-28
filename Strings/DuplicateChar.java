@@ -1,7 +1,7 @@
 public class FindDuplicates {
  
     public static void main(String[] args) {
-        String inputString = "My name is Guarav Kukade!";
+        String inputString = "My Name is Guarav Kukade!";
  
         printDuplicates(inputString);
     }
