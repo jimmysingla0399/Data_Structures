@@ -3,14 +3,14 @@ package Arrays;
 public class Segregate {
 	static void segregat(int arr[], int n) 
     { 
-        int count = 0; 
+        int count1 = 0; 
         for (int i = 0; i < n; i++) { 
             if (arr[i] == 0) 
-                count++; 
+                count1++; 
         } 
-        for (int i = 0; i < count; i++) 
+        for (int i = 0; i < count1; i++) 
             arr[i] = 0;
-        for (int i = count; i < n; i++) 
+        for (int i = count1; i < n; i++) 
             arr[i] = 1; 
     } 
 	static void print(int arr[], int n) 
