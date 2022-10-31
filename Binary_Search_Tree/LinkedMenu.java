@@ -18,7 +18,7 @@ public class LinkedMenu {
         Node newNode=new Node(b);
         if(li.head==null)
         {
-            li.head=newNode;
+            li.head=  newNode;
         }
         else
             {
