@@ -1,5 +1,5 @@
 import java.util.*;
-public class Pallindrom {
+public class Pallindrom1 {
 	class Node
 	{
 		int data;
@@ -30,7 +30,7 @@ public class Pallindrom {
 		Node current=head;
 		while(current!=null)
 		{
-			System.out.print(current.data+" ");
+			System.out.print(current.data+"DATA ");
 			current=current.next;
 		}
 	}
