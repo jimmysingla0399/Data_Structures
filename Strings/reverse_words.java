@@ -12,6 +12,6 @@ public class reverse_words {
 			   ans+=spli[i]+".";
 		    }
 		   ans+=spli[0];
-		    System.out.print(ans);
+		    System.out.print("REVERSE STRING"+ans);
 	}
 }
