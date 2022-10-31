@@ -21,11 +21,11 @@ public class Palindrome {
 		String s="radar";
 		if(pal(s))
 		{
-			System.out.print("paindrome");
+			System.out.print("palindrome");
 		}
 		else
 		{
-			System.out.print("paindrome");
+			System.out.print("palindrome");
 	
 		}
 	}
