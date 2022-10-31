@@ -105,7 +105,7 @@ public class functions {
 		
 		String abc = "BANGLORE COMP. EDUCATION";
 		String def = abc.replaceAll("[AEO]", "*");
-		System.out.println(def); // B*NGL*R* C*MP. *DUC*TI*N
+		System.out.println("FIND"+def); // B*NGL*R* C*MP. *DUC*TI*N
 		
 		
 }}
