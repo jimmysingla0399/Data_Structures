@@ -16,7 +16,7 @@ public static void number1(int n)
 		// TODO Auto-generated method stub
 		Scanner sc=new Scanner(System.in);
 int n=sc.nextInt();
-number1(n);
+number1(n-2);
 	}
 
 }
