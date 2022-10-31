@@ -4,7 +4,7 @@ class CopyString
 static void strCopy(char string1[], char string2[])
 {
     int i = 0;
-    for (i = 0; i < string1.length; i++)
+    for (i=0; i<string1.length; i++)
          string2[i] = string1[i];
 }
  
