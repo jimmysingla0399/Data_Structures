@@ -10,12 +10,12 @@ public class isogram {
     { 
         // Convert the string in lower case letters 
         str = str.toLowerCase(); 
-        int len = str.length(); 
+        int len1 = str.length(); 
   
         char arr[] = str.toCharArray(); 
   
         Arrays.sort(arr); 
-        for (int i = 0; i < len - 1; i++) { 
+        for (int i = 0; i < len1 - 1; i++) { 
             if (arr[i] == arr[i + 1]) 
                 return false; 
         } 
